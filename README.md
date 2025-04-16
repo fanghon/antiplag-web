@@ -1,4 +1,4 @@
-# antiplag 程序代码、文档、图片作业相似度检查软件
+# antiplag-web 程序代码、文档相似度检查软件
 该软件是antiplag查重软件的web版后端，能对代码（java、c、c++、python等）、文档（txt、doc、docx、pdf等）之间的相似度进行比较分析，输出相似度高的代码、文本，进而辅助发现学生之间互相抄袭的行为。
 
 ## JDK版本
