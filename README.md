@@ -1,11 +1,13 @@
 # antiplag-web 程序代码、文档相似度检查软件
 该软件是antiplag查重软件的web版后端，能对代码（java、c、c++、python等）、文档（txt、doc、docx、pdf等）之间的相似度进行比较分析，输出相似度高的代码、文本，进而辅助发现学生之间互相抄袭的行为。
 
-## JDK及版本
+## 相关软件
 [jdk11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)  
-python12 （建议安装anaconda2024，使用semhash时需要安装）
-## 安装
+python12 （建议安装anaconda, 使用semhash时需要安装）  
+[mysql8.0](https://dev.mysql.com/downloads/mysql/)
+## 安装配置
 直接下载或clone项目源代码，项目源代码可以直接导入idea。  
+数据库名jplag,表user。  
 为了支持python的semhash算法，需要执行以下安装命令：  
 pip  install semhash  
 
