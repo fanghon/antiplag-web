@@ -14,7 +14,7 @@ pip  install semhash
 系统在window11，jdk11 64位下开发、运行。
 
 ## 使用
-该软件是后端，需要前端软件配合使用。程序主界面如下：
+该软件是后端，需要[前端软件](https://github.com/fanghon/antiplag-web-front)配合使用。程序主界面如下：
 ![程序主界面](./img.png) 
   
 ## 原理
@@ -28,7 +28,7 @@ pip  install semhash
 
 ### 中英文文档的相似度比较基于3个开源系统：
 
-* 第一种是基于[semhash](https://github.com/MinishLab/semhash)（ 支持文本语义相似度检查）
+* 第一种是基于[semhash](https://github.com/MinishLab/semhash)（ 支持文本语义相似度检查,快速语义嵌入+向量搜索）
 * 第二种是基于[lucence](https://github.com/apache/lucene)（bm25算法的相似文本检索）
 * 第三种是基于jplag的GST算法，对其功能进行了扩展，增加的“doc”语言类型，可以对各种文档进行相似度计算，并提供基于网页的可视化比对功能。
 
